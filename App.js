@@ -27,7 +27,7 @@ export default class App extends Component {
 
     if (n === '.' && !clearDisplay && this.state.displayValue.includes('.')) {
       return
-    }
+    } 
     
     const currentValue = clearDisplay ? '' : this.state.displayValue
     
